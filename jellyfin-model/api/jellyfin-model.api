@@ -713,9 +713,9 @@ public final class org/jellyfin/sdk/model/api/BaseItem$Companion {
 
 public final class org/jellyfin/sdk/model/api/BaseItemDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/BaseItemDto$Companion;
-	public synthetic fun <init> (IIIIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
-	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;IIIIILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (IIIIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Lorg/jellyfin/sdk/model/api/BaseItemKind;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Lorg/jellyfin/sdk/model/api/BaseItemKind;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Lorg/jellyfin/sdk/model/api/BaseItemKind;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;IIIIILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component10 ()Ljava/lang/String;
 	public final fun component100 ()Ljava/lang/String;
@@ -818,7 +818,7 @@ public final class org/jellyfin/sdk/model/api/BaseItemDto {
 	public final fun component52 ()Ljava/lang/Boolean;
 	public final fun component53 ()Ljava/lang/Boolean;
 	public final fun component54 ()Ljava/util/UUID;
-	public final fun component55 ()Ljava/lang/String;
+	public final fun component55 ()Lorg/jellyfin/sdk/model/api/BaseItemKind;
 	public final fun component56 ()Ljava/util/List;
 	public final fun component57 ()Ljava/util/List;
 	public final fun component58 ()Ljava/util/List;
@@ -867,8 +867,8 @@ public final class org/jellyfin/sdk/model/api/BaseItemDto {
 	public final fun component97 ()Ljava/lang/String;
 	public final fun component98 ()Ljava/util/Map;
 	public final fun component99 ()Ljava/lang/String;
-	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;)Lorg/jellyfin/sdk/model/api/BaseItemDto;
-	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/BaseItemDto;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;IIIIILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/BaseItemDto;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Lorg/jellyfin/sdk/model/api/BaseItemKind;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;)Lorg/jellyfin/sdk/model/api/BaseItemDto;
+	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/BaseItemDto;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Video3dFormat;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/util/List;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Float;Ljava/lang/Long;Ljava/lang/Long;Lorg/jellyfin/sdk/model/api/PlayAccess;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/List;Ljava/util/Map;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/util/UUID;Lorg/jellyfin/sdk/model/api/BaseItemKind;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/Integer;Lorg/jellyfin/sdk/model/api/UserItemDataDto;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/util/UUID;Ljava/util/UUID;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/Double;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/VideoType;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/Map;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jellyfin/sdk/model/api/LocationType;Lorg/jellyfin/sdk/model/api/IsoType;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/util/List;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;Ljava/lang/Double;Lorg/jellyfin/sdk/model/api/ImageOrientation;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/lang/Double;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ChannelType;Lorg/jellyfin/sdk/model/api/ProgramAudio;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/BaseItemDto;IIIIILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/BaseItemDto;
 	public fun equals (Ljava/lang/Object;)Z
 	public final fun getAirDays ()Ljava/util/List;
 	public final fun getAirTime ()Ljava/lang/String;
@@ -1005,7 +1005,7 @@ public final class org/jellyfin/sdk/model/api/BaseItemDto {
 	public final fun getTags ()Ljava/util/List;
 	public final fun getTimerId ()Ljava/lang/String;
 	public final fun getTrailerCount ()Ljava/lang/Integer;
-	public final fun getType ()Ljava/lang/String;
+	public final fun getType ()Lorg/jellyfin/sdk/model/api/BaseItemKind;
 	public final fun getUserData ()Lorg/jellyfin/sdk/model/api/UserItemDataDto;
 	public final fun getVideo3dFormat ()Lorg/jellyfin/sdk/model/api/Video3dFormat;
 	public final fun getVideoType ()Lorg/jellyfin/sdk/model/api/VideoType;
@@ -1072,6 +1072,64 @@ public final class org/jellyfin/sdk/model/api/BaseItemDtoQueryResult$$serializer
 }
 
 public final class org/jellyfin/sdk/model/api/BaseItemDtoQueryResult$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class org/jellyfin/sdk/model/api/BaseItemKind : java/lang/Enum {
+	public static final field AGGREGATE_FOLDER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field AUDIO Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field AUDIO_BOOK Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field BASE_PLUGIN_FOLDER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field BOOK Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field BOX_SET Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field CHANNEL Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field CHANNEL_FOLDER_ITEM Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field COLLECTION_FOLDER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field Companion Lorg/jellyfin/sdk/model/api/BaseItemKind$Companion;
+	public static final field EPISODE Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field FOLDER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field GENRE Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field MANUAL_PLAYLISTS_FOLDER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field MOVIE Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field MUSIC_ALBUM Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field MUSIC_ARTIST Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field MUSIC_GENRE Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field MUSIC_VIDEO Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field PERSON Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field PHOTO Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field PHOTO_ALBUM Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field PLAYLIST Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field PROGRAM Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field RECORDING Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field SEASON Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field SERIES Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field STUDIO Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field TRAILER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field TV_CHANNEL Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field TV_PROGRAM Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field USER_ROOT_FOLDER Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field USER_VIEW Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field VIDEO Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static final field YEAR Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public final fun getSerialName ()Ljava/lang/String;
+	public fun toString ()Ljava/lang/String;
+	public static fun valueOf (Ljava/lang/String;)Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public static fun values ()[Lorg/jellyfin/sdk/model/api/BaseItemKind;
+}
+
+public final class org/jellyfin/sdk/model/api/BaseItemKind$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
+	public static final field INSTANCE Lorg/jellyfin/sdk/model/api/BaseItemKind$$serializer;
+	public static final synthetic field descriptor Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public fun childSerializers ()[Lkotlinx/serialization/KSerializer;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lorg/jellyfin/sdk/model/api/BaseItemKind;
+	public fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun serialize (Lkotlinx/serialization/encoding/Encoder;Lorg/jellyfin/sdk/model/api/BaseItemKind;)V
+	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
+}
+
+public final class org/jellyfin/sdk/model/api/BaseItemKind$Companion {
 	public final fun serializer ()Lkotlinx/serialization/KSerializer;
 }
 
@@ -1460,7 +1518,6 @@ public final class org/jellyfin/sdk/model/api/ChannelItemSortField$Companion {
 
 public final class org/jellyfin/sdk/model/api/ChannelMappingOptionsDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/ChannelMappingOptionsDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
 	public synthetic fun <init> (Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -1842,20 +1899,18 @@ public final class org/jellyfin/sdk/model/api/CollectionTypeOptions$Companion {
 
 public final class org/jellyfin/sdk/model/api/ConfigurationPageInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo$Companion;
-	public synthetic fun <init> (ILjava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ConfigurationPageType;Ljava/util/UUID;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
-	public fun <init> (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ConfigurationPageType;Ljava/util/UUID;)V
-	public synthetic fun <init> (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ConfigurationPageType;Ljava/util/UUID;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (ILjava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
+	public fun <init> (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;)V
+	public synthetic fun <init> (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component2 ()Z
 	public final fun component3 ()Ljava/lang/String;
 	public final fun component4 ()Ljava/lang/String;
 	public final fun component5 ()Ljava/lang/String;
-	public final fun component6 ()Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
-	public final fun component7 ()Ljava/util/UUID;
-	public final fun copy (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ConfigurationPageType;Ljava/util/UUID;)Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo;
-	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ConfigurationPageType;Ljava/util/UUID;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo;
+	public final fun component6 ()Ljava/util/UUID;
+	public final fun copy (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;)Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo;
+	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/UUID;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/ConfigurationPageInfo;
 	public fun equals (Ljava/lang/Object;)Z
-	public final fun getConfigurationPageType ()Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
 	public final fun getDisplayName ()Ljava/lang/String;
 	public final fun getEnableInMainMenu ()Z
 	public final fun getMenuIcon ()Ljava/lang/String;
@@ -1879,32 +1934,6 @@ public final class org/jellyfin/sdk/model/api/ConfigurationPageInfo$$serializer 
 }
 
 public final class org/jellyfin/sdk/model/api/ConfigurationPageInfo$Companion {
-	public final fun serializer ()Lkotlinx/serialization/KSerializer;
-}
-
-public final class org/jellyfin/sdk/model/api/ConfigurationPageType : java/lang/Enum {
-	public static final field Companion Lorg/jellyfin/sdk/model/api/ConfigurationPageType$Companion;
-	public static final field NONE Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
-	public static final field PLUGIN_CONFIGURATION Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
-	public final fun getSerialName ()Ljava/lang/String;
-	public fun toString ()Ljava/lang/String;
-	public static fun valueOf (Ljava/lang/String;)Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
-	public static fun values ()[Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
-}
-
-public final class org/jellyfin/sdk/model/api/ConfigurationPageType$$serializer : kotlinx/serialization/internal/GeneratedSerializer {
-	public static final field INSTANCE Lorg/jellyfin/sdk/model/api/ConfigurationPageType$$serializer;
-	public static final synthetic field descriptor Lkotlinx/serialization/descriptors/SerialDescriptor;
-	public fun childSerializers ()[Lkotlinx/serialization/KSerializer;
-	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
-	public fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Lorg/jellyfin/sdk/model/api/ConfigurationPageType;
-	public fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
-	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
-	public fun serialize (Lkotlinx/serialization/encoding/Encoder;Lorg/jellyfin/sdk/model/api/ConfigurationPageType;)V
-	public fun typeParametersSerializers ()[Lkotlinx/serialization/KSerializer;
-}
-
-public final class org/jellyfin/sdk/model/api/ConfigurationPageType$Companion {
 	public final fun serializer ()Lkotlinx/serialization/KSerializer;
 }
 
@@ -2015,7 +2044,6 @@ public final class org/jellyfin/sdk/model/api/CountryInfo$Companion {
 
 public final class org/jellyfin/sdk/model/api/CreatePlaylistDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/CreatePlaylistDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/util/List;Ljava/util/UUID;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/util/List;Ljava/util/UUID;Ljava/lang/String;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/util/List;Ljava/util/UUID;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -2371,9 +2399,9 @@ public final class org/jellyfin/sdk/model/api/DeviceOptions$Companion {
 
 public final class org/jellyfin/sdk/model/api/DeviceProfile {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/DeviceProfile$Companion;
-	public synthetic fun <init> (IILjava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
-	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (IILjava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component10 ()Ljava/lang/String;
 	public final fun component11 ()Ljava/lang/String;
@@ -2383,8 +2411,8 @@ public final class org/jellyfin/sdk/model/api/DeviceProfile {
 	public final fun component15 ()Ljava/lang/String;
 	public final fun component16 ()Ljava/lang/String;
 	public final fun component17 ()Ljava/lang/String;
-	public final fun component18 ()I
-	public final fun component19 ()I
+	public final fun component18 ()Ljava/lang/Integer;
+	public final fun component19 ()Ljava/lang/Integer;
 	public final fun component2 ()Ljava/lang/String;
 	public final fun component20 ()Ljava/lang/Integer;
 	public final fun component21 ()Ljava/lang/Integer;
@@ -2413,8 +2441,8 @@ public final class org/jellyfin/sdk/model/api/DeviceProfile {
 	public final fun component7 ()Ljava/lang/String;
 	public final fun component8 ()Ljava/lang/String;
 	public final fun component9 ()Ljava/lang/String;
-	public final fun copy (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)Lorg/jellyfin/sdk/model/api/DeviceProfile;
-	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/DeviceProfile;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/DeviceProfile;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)Lorg/jellyfin/sdk/model/api/DeviceProfile;
+	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/DeviceProfile;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/DeviceIdentification;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;IZZZZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;IILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/DeviceProfile;
 	public fun equals (Ljava/lang/Object;)Z
 	public final fun getAlbumArtPn ()Ljava/lang/String;
 	public final fun getCodecProfiles ()Ljava/util/List;
@@ -2430,8 +2458,8 @@ public final class org/jellyfin/sdk/model/api/DeviceProfile {
 	public final fun getIgnoreTranscodeByteRangeRequests ()Z
 	public final fun getManufacturer ()Ljava/lang/String;
 	public final fun getManufacturerUrl ()Ljava/lang/String;
-	public final fun getMaxAlbumArtHeight ()I
-	public final fun getMaxAlbumArtWidth ()I
+	public final fun getMaxAlbumArtHeight ()Ljava/lang/Integer;
+	public final fun getMaxAlbumArtWidth ()Ljava/lang/Integer;
 	public final fun getMaxIconHeight ()Ljava/lang/Integer;
 	public final fun getMaxIconWidth ()Ljava/lang/Integer;
 	public final fun getMaxStaticBitrate ()Ljava/lang/Integer;
@@ -2747,7 +2775,6 @@ public final class org/jellyfin/sdk/model/api/EndPointInfo$Companion {
 
 public final class org/jellyfin/sdk/model/api/ExternalIdInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/ExternalIdInfo$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ExternalIdMediaType;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ExternalIdMediaType;Ljava/lang/String;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/ExternalIdMediaType;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -2883,7 +2910,6 @@ public final class org/jellyfin/sdk/model/api/FileSystemEntryInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/FileSystemEntryInfo$Companion;
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/FileSystemEntryType;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/FileSystemEntryType;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/FileSystemEntryType;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component2 ()Ljava/lang/String;
 	public final fun component3 ()Lorg/jellyfin/sdk/model/api/FileSystemEntryType;
@@ -3100,7 +3126,6 @@ public final class org/jellyfin/sdk/model/api/GeneralCommand {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/GeneralCommand$Companion;
 	public synthetic fun <init> (ILorg/jellyfin/sdk/model/api/GeneralCommandType;Ljava/util/UUID;Ljava/util/Map;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Lorg/jellyfin/sdk/model/api/GeneralCommandType;Ljava/util/UUID;Ljava/util/Map;)V
-	public synthetic fun <init> (Lorg/jellyfin/sdk/model/api/GeneralCommandType;Ljava/util/UUID;Ljava/util/Map;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Lorg/jellyfin/sdk/model/api/GeneralCommandType;
 	public final fun component2 ()Ljava/util/UUID;
 	public final fun component3 ()Ljava/util/Map;
@@ -3281,7 +3306,6 @@ public final class org/jellyfin/sdk/model/api/GroupInfoDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/GroupInfoDto$Companion;
 	public synthetic fun <init> (ILjava/util/UUID;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/GroupStateType;Ljava/util/List;Ljava/time/LocalDateTime;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/UUID;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/GroupStateType;Ljava/util/List;Ljava/time/LocalDateTime;)V
-	public synthetic fun <init> (Ljava/util/UUID;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/GroupStateType;Ljava/util/List;Ljava/time/LocalDateTime;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/UUID;
 	public final fun component2 ()Ljava/lang/String;
 	public final fun component3 ()Lorg/jellyfin/sdk/model/api/GroupStateType;
@@ -3798,10 +3822,8 @@ public final class org/jellyfin/sdk/model/api/ImageOrientation$Companion {
 
 public final class org/jellyfin/sdk/model/api/ImageProviderInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/ImageProviderInfo$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/util/List;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component2 ()Ljava/util/List;
 	public final fun copy (Ljava/lang/String;Ljava/util/List;)Lorg/jellyfin/sdk/model/api/ImageProviderInfo;
@@ -4298,10 +4320,8 @@ public final class org/jellyfin/sdk/model/api/LibraryOptions$Companion {
 
 public final class org/jellyfin/sdk/model/api/LibraryOptionsResultDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/LibraryOptionsResultDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
-	public synthetic fun <init> (Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun component2 ()Ljava/util/List;
 	public final fun component3 ()Ljava/util/List;
@@ -4335,7 +4355,6 @@ public final class org/jellyfin/sdk/model/api/LibraryOptionsResultDto$Companion 
 
 public final class org/jellyfin/sdk/model/api/LibraryTypeOptionsDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/LibraryTypeOptionsDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -4376,7 +4395,6 @@ public final class org/jellyfin/sdk/model/api/LibraryUpdateInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/LibraryUpdateInfo$Companion;
 	public synthetic fun <init> (ILjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZLkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Z)V
-	public synthetic fun <init> (Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun component2 ()Ljava/util/List;
 	public final fun component3 ()Ljava/util/List;
@@ -4480,10 +4498,8 @@ public final class org/jellyfin/sdk/model/api/ListingsProviderInfo$Companion {
 
 public final class org/jellyfin/sdk/model/api/LiveStreamResponse {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/LiveStreamResponse$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILorg/jellyfin/sdk/model/api/MediaSourceInfo;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Lorg/jellyfin/sdk/model/api/MediaSourceInfo;)V
-	public synthetic fun <init> (Lorg/jellyfin/sdk/model/api/MediaSourceInfo;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Lorg/jellyfin/sdk/model/api/MediaSourceInfo;
 	public final fun copy (Lorg/jellyfin/sdk/model/api/MediaSourceInfo;)Lorg/jellyfin/sdk/model/api/LiveStreamResponse;
 	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/LiveStreamResponse;Lorg/jellyfin/sdk/model/api/MediaSourceInfo;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/LiveStreamResponse;
@@ -4513,7 +4529,6 @@ public final class org/jellyfin/sdk/model/api/LiveTvInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/LiveTvInfo$Companion;
 	public synthetic fun <init> (ILjava/util/List;ZLjava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;ZLjava/util/List;)V
-	public synthetic fun <init> (Ljava/util/List;ZLjava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun component2 ()Z
 	public final fun component3 ()Ljava/util/List;
@@ -4785,10 +4800,8 @@ public final class org/jellyfin/sdk/model/api/MediaAttachment$Companion {
 
 public final class org/jellyfin/sdk/model/api/MediaEncoderPathDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/MediaEncoderPathDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component2 ()Ljava/lang/String;
 	public final fun copy (Ljava/lang/String;Ljava/lang/String;)Lorg/jellyfin/sdk/model/api/MediaEncoderPathDto;
@@ -5205,10 +5218,8 @@ public final class org/jellyfin/sdk/model/api/MediaStreamType$Companion {
 
 public final class org/jellyfin/sdk/model/api/MediaUpdateInfoDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/MediaUpdateInfoDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;)V
-	public synthetic fun <init> (Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun copy (Ljava/util/List;)Lorg/jellyfin/sdk/model/api/MediaUpdateInfoDto;
 	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/MediaUpdateInfoDto;Ljava/util/List;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/MediaUpdateInfoDto;
@@ -5780,10 +5791,8 @@ public final class org/jellyfin/sdk/model/api/NameValuePair$Companion {
 
 public final class org/jellyfin/sdk/model/api/NewGroupRequestDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/NewGroupRequestDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;)V
-	public synthetic fun <init> (Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun copy (Ljava/lang/String;)Lorg/jellyfin/sdk/model/api/NewGroupRequestDto;
 	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/NewGroupRequestDto;Ljava/lang/String;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/NewGroupRequestDto;
@@ -5842,7 +5851,6 @@ public final class org/jellyfin/sdk/model/api/NotificationDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/NotificationDto$Companion;
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/NotificationLevel;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/NotificationLevel;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/NotificationLevel;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component2 ()Ljava/lang/String;
 	public final fun component3 ()Ljava/time/LocalDateTime;
@@ -5913,7 +5921,6 @@ public final class org/jellyfin/sdk/model/api/NotificationResultDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/NotificationResultDto$Companion;
 	public synthetic fun <init> (ILjava/util/List;ILkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;I)V
-	public synthetic fun <init> (Ljava/util/List;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun component2 ()I
 	public final fun copy (Ljava/util/List;I)Lorg/jellyfin/sdk/model/api/NotificationResultDto;
@@ -6046,7 +6053,6 @@ public final class org/jellyfin/sdk/model/api/ObjectGroupUpdate$Companion {
 
 public final class org/jellyfin/sdk/model/api/OpenLiveStreamDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/OpenLiveStreamDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/UUID;Ljava/lang/Boolean;Ljava/lang/Boolean;Lorg/jellyfin/sdk/model/api/DeviceProfile;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/UUID;Ljava/lang/Boolean;Ljava/lang/Boolean;Lorg/jellyfin/sdk/model/api/DeviceProfile;Ljava/util/List;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/util/UUID;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/util/UUID;Ljava/lang/Boolean;Ljava/lang/Boolean;Lorg/jellyfin/sdk/model/api/DeviceProfile;Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -6101,7 +6107,6 @@ public final class org/jellyfin/sdk/model/api/OpenLiveStreamDto$Companion {
 
 public final class org/jellyfin/sdk/model/api/PackageInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/PackageInfo$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -6178,10 +6183,8 @@ public final class org/jellyfin/sdk/model/api/ParentalRating$Companion {
 
 public final class org/jellyfin/sdk/model/api/PathSubstitution {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/PathSubstitution$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
-	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun component2 ()Ljava/lang/String;
 	public final fun copy (Ljava/lang/String;Ljava/lang/String;)Lorg/jellyfin/sdk/model/api/PathSubstitution;
@@ -6484,7 +6487,6 @@ public final class org/jellyfin/sdk/model/api/PlayRequestDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/PlayRequestDto$Companion;
 	public synthetic fun <init> (ILjava/util/List;IJLkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;IJ)V
-	public synthetic fun <init> (Ljava/util/List;IJILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun component2 ()I
 	public final fun component3 ()J
@@ -6602,7 +6604,6 @@ public final class org/jellyfin/sdk/model/api/PlaybackInfoDto$Companion {
 
 public final class org/jellyfin/sdk/model/api/PlaybackInfoResponse {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/PlaybackInfoResponse$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/util/List;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/PlaybackErrorCode;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/PlaybackErrorCode;)V
 	public synthetic fun <init> (Ljava/util/List;Ljava/lang/String;Lorg/jellyfin/sdk/model/api/PlaybackErrorCode;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -6871,10 +6872,8 @@ public final class org/jellyfin/sdk/model/api/PlayerStateInfo$Companion {
 
 public final class org/jellyfin/sdk/model/api/PlaylistCreationResult {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/PlaylistCreationResult$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;)V
-	public synthetic fun <init> (Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/lang/String;
 	public final fun copy (Ljava/lang/String;)Lorg/jellyfin/sdk/model/api/PlaylistCreationResult;
 	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/PlaylistCreationResult;Ljava/lang/String;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/PlaylistCreationResult;
@@ -7433,7 +7432,6 @@ public final class org/jellyfin/sdk/model/api/QueueRequestDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/QueueRequestDto$Companion;
 	public synthetic fun <init> (ILjava/util/List;Lorg/jellyfin/sdk/model/api/GroupQueueMode;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;Lorg/jellyfin/sdk/model/api/GroupQueueMode;)V
-	public synthetic fun <init> (Ljava/util/List;Lorg/jellyfin/sdk/model/api/GroupQueueMode;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun component2 ()Lorg/jellyfin/sdk/model/api/GroupQueueMode;
 	public final fun copy (Ljava/util/List;Lorg/jellyfin/sdk/model/api/GroupQueueMode;)Lorg/jellyfin/sdk/model/api/QueueRequestDto;
@@ -7903,10 +7901,8 @@ public final class org/jellyfin/sdk/model/api/RemoteSubtitleInfo$Companion {
 
 public final class org/jellyfin/sdk/model/api/RemoveFromPlaylistRequestDto {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/RemoveFromPlaylistRequestDto$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/util/List;)V
-	public synthetic fun <init> (Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1 ()Ljava/util/List;
 	public final fun copy (Ljava/util/List;)Lorg/jellyfin/sdk/model/api/RemoveFromPlaylistRequestDto;
 	public static synthetic fun copy$default (Lorg/jellyfin/sdk/model/api/RemoveFromPlaylistRequestDto;Ljava/util/List;ILjava/lang/Object;)Lorg/jellyfin/sdk/model/api/RemoveFromPlaylistRequestDto;
@@ -8714,7 +8710,6 @@ public final class org/jellyfin/sdk/model/api/ServerConfiguration$Companion {
 
 public final class org/jellyfin/sdk/model/api/ServerDiscoveryInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/ServerDiscoveryInfo$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -9681,7 +9676,6 @@ public final class org/jellyfin/sdk/model/api/ThemeMediaResult$Companion {
 
 public final class org/jellyfin/sdk/model/api/TimerEventInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/TimerEventInfo$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Ljava/util/UUID;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Ljava/util/UUID;)V
 	public synthetic fun <init> (Ljava/lang/String;Ljava/util/UUID;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
@@ -10829,7 +10823,6 @@ public final class org/jellyfin/sdk/model/api/Version$Companion {
 
 public final class org/jellyfin/sdk/model/api/VersionInfo {
 	public static final field Companion Lorg/jellyfin/sdk/model/api/VersionInfo$Companion;
-	public fun <init> ()V
 	public synthetic fun <init> (ILjava/lang/String;Lorg/jellyfin/sdk/model/api/Version;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 	public fun <init> (Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Version;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	public synthetic fun <init> (Ljava/lang/String;Lorg/jellyfin/sdk/model/api/Version;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V

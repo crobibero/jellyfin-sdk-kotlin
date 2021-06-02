@@ -13,6 +13,7 @@ import kotlin.String
 import kotlin.collections.List
 import org.jellyfin.sdk.api.client.KtorClient
 import org.jellyfin.sdk.api.client.Response
+import org.jellyfin.sdk.model.api.BaseItemKind
 import org.jellyfin.sdk.model.api.SearchHintResult
 
 public class SearchApi(
@@ -50,8 +51,8 @@ public class SearchApi(
 		limit: Int? = null,
 		userId: UUID? = null,
 		searchTerm: String,
-		includeItemTypes: List<String>? = emptyList(),
-		excludeItemTypes: List<String>? = emptyList(),
+		includeItemTypes: List<BaseItemKind>? = emptyList(),
+		excludeItemTypes: List<BaseItemKind>? = emptyList(),
 		mediaTypes: List<String>? = emptyList(),
 		parentId: UUID? = null,
 		isMovie: Boolean? = null,

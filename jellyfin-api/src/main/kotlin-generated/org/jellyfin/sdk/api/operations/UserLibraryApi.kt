@@ -15,6 +15,7 @@ import org.jellyfin.sdk.api.client.KtorClient
 import org.jellyfin.sdk.api.client.Response
 import org.jellyfin.sdk.model.api.BaseItemDto
 import org.jellyfin.sdk.model.api.BaseItemDtoQueryResult
+import org.jellyfin.sdk.model.api.BaseItemKind
 import org.jellyfin.sdk.model.api.ImageType
 import org.jellyfin.sdk.model.api.ItemFields
 import org.jellyfin.sdk.model.api.UserItemDataDto
@@ -94,7 +95,7 @@ public class UserLibraryApi(
 		userId: UUID,
 		parentId: UUID? = null,
 		fields: List<ItemFields>? = emptyList(),
-		includeItemTypes: List<String>? = emptyList(),
+		includeItemTypes: List<BaseItemKind>? = emptyList(),
 		isPlayed: Boolean? = null,
 		enableImages: Boolean? = null,
 		imageTypeLimit: Int? = null,

@@ -16,6 +16,7 @@ import kotlin.collections.List
 import org.jellyfin.sdk.api.client.KtorClient
 import org.jellyfin.sdk.api.client.Response
 import org.jellyfin.sdk.model.api.BaseItemDtoQueryResult
+import org.jellyfin.sdk.model.api.BaseItemKind
 import org.jellyfin.sdk.model.api.ImageType
 import org.jellyfin.sdk.model.api.ItemFields
 import org.jellyfin.sdk.model.api.ItemFilter
@@ -184,7 +185,7 @@ public class TrailersApi(
 		sortOrder: List<SortOrder>? = emptyList(),
 		parentId: UUID? = null,
 		fields: List<ItemFields>? = emptyList(),
-		excludeItemTypes: List<String>? = emptyList(),
+		excludeItemTypes: List<BaseItemKind>? = emptyList(),
 		filters: List<ItemFilter>? = emptyList(),
 		isFavorite: Boolean? = null,
 		mediaTypes: List<String>? = emptyList(),

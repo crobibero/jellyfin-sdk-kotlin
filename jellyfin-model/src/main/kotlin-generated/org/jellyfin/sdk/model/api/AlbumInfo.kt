@@ -62,12 +62,12 @@ public data class AlbumInfo(
 	 * Gets or sets the album artist.
 	 */
 	@SerialName("AlbumArtists")
-	public val albumArtists: List<String>? = null,
+	public val albumArtists: List<String>,
 	/**
 	 * Gets or sets the artist provider ids.
 	 */
 	@SerialName("ArtistProviderIds")
-	public val artistProviderIds: Map<String, String>? = null,
+	public val artistProviderIds: Map<String, String>,
 	@SerialName("SongInfos")
-	public val songInfos: List<SongInfo>? = null
+	public val songInfos: List<SongInfo>
 )
