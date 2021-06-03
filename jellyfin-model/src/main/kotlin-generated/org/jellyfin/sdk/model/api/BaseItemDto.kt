@@ -103,11 +103,8 @@ public data class BaseItemDto(
 	public val sortName: String? = null,
 	@SerialName("ForcedSortName")
 	public val forcedSortName: String? = null,
-	/**
-	 * Gets or sets the video3 D format.
-	 */
 	@SerialName("Video3DFormat")
-	public val video3dFormat: Video3dFormat? = null,
+	public val video3dFormat: Video3dFormat,
 	/**
 	 * Gets or sets the premiere date.
 	 */
@@ -184,11 +181,8 @@ public data class BaseItemDto(
 	 */
 	@SerialName("RunTimeTicks")
 	public val runTimeTicks: Long? = null,
-	/**
-	 * Gets or sets the play access.
-	 */
 	@SerialName("PlayAccess")
-	public val playAccess: PlayAccess? = null,
+	public val playAccess: PlayAccess,
 	/**
 	 * Gets or sets the aspect ratio.
 	 */
@@ -288,11 +282,8 @@ public data class BaseItemDto(
 	 */
 	@SerialName("LocalTrailerCount")
 	public val localTrailerCount: Int? = null,
-	/**
-	 * User data for this item based on the user it's being requested for.
-	 */
 	@SerialName("UserData")
-	public val userData: UserItemDataDto? = null,
+	public val userData: UserItemDataDto,
 	/**
 	 * Gets or sets the recursive item count.
 	 */
@@ -413,11 +404,8 @@ public data class BaseItemDto(
 	 */
 	@SerialName("MediaStreams")
 	public val mediaStreams: List<MediaStream>? = null,
-	/**
-	 * Gets or sets the type of the video.
-	 */
 	@SerialName("VideoType")
-	public val videoType: VideoType? = null,
+	public val videoType: VideoType,
 	/**
 	 * Gets or sets the part count.
 	 */
@@ -496,16 +484,10 @@ public data class BaseItemDto(
 	 */
 	@SerialName("Chapters")
 	public val chapters: List<ChapterInfo>? = null,
-	/**
-	 * Gets or sets the type of the location.
-	 */
 	@SerialName("LocationType")
-	public val locationType: LocationType? = null,
-	/**
-	 * Gets or sets the type of the iso.
-	 */
+	public val locationType: LocationType,
 	@SerialName("IsoType")
-	public val isoType: IsoType? = null,
+	public val isoType: IsoType,
 	/**
 	 * Gets or sets the type of the media.
 	 */
@@ -580,7 +562,7 @@ public data class BaseItemDto(
 	@SerialName("FocalLength")
 	public val focalLength: Double? = null,
 	@SerialName("ImageOrientation")
-	public val imageOrientation: ImageOrientation? = null,
+	public val imageOrientation: ImageOrientation,
 	@SerialName("Aperture")
 	public val aperture: Double? = null,
 	@SerialName("ShutterSpeed")
@@ -628,16 +610,10 @@ public data class BaseItemDto(
 	 */
 	@SerialName("EpisodeTitle")
 	public val episodeTitle: String? = null,
-	/**
-	 * Gets or sets the type of the channel.
-	 */
 	@SerialName("ChannelType")
-	public val channelType: ChannelType? = null,
-	/**
-	 * Gets or sets the audio.
-	 */
+	public val channelType: ChannelType,
 	@SerialName("Audio")
-	public val audio: ProgramAudio? = null,
+	public val audio: ProgramAudio,
 	/**
 	 * Gets or sets a value indicating whether this instance is movie.
 	 */
@@ -678,9 +654,6 @@ public data class BaseItemDto(
 	 */
 	@SerialName("TimerId")
 	public val timerId: String? = null,
-	/**
-	 * Gets or sets the current program.
-	 */
 	@SerialName("CurrentProgram")
-	public val currentProgram: BaseItemDto? = null
+	public val currentProgram: BaseItemDto
 )

@@ -62,11 +62,8 @@ public data class PlaybackInfoDto(
 	 */
 	@SerialName("LiveStreamId")
 	public val liveStreamId: String? = null,
-	/**
-	 * Gets or sets the device profile.
-	 */
 	@SerialName("DeviceProfile")
-	public val deviceProfile: DeviceProfile? = null,
+	public val deviceProfile: DeviceProfile,
 	/**
 	 * Gets or sets a value indicating whether to enable direct play.
 	 */

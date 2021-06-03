@@ -131,9 +131,6 @@ public data class SystemInfo(
 	 */
 	@SerialName("HasUpdateAvailable")
 	public val hasUpdateAvailable: Boolean,
-	/**
-	 * Enum describing the location of the FFmpeg tool.
-	 */
 	@SerialName("EncoderLocation")
 	public val encoderLocation: FFmpegLocation,
 	@SerialName("SystemArchitecture")

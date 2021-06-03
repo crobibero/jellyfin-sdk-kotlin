@@ -24,11 +24,8 @@ public data class AdminNotificationDto(
 	 */
 	@SerialName("Description")
 	public val description: String? = null,
-	/**
-	 * Gets or sets the notification level.
-	 */
 	@SerialName("NotificationLevel")
-	public val notificationLevel: NotificationLevel? = null,
+	public val notificationLevel: NotificationLevel,
 	/**
 	 * Gets or sets the notification url.
 	 */

@@ -22,9 +22,6 @@ public data class TaskInfo(
 	 */
 	@SerialName("Name")
 	public val name: String? = null,
-	/**
-	 * Gets or sets the state of the task.
-	 */
 	@SerialName("State")
 	public val state: TaskState,
 	/**
@@ -37,11 +34,8 @@ public data class TaskInfo(
 	 */
 	@SerialName("Id")
 	public val id: String? = null,
-	/**
-	 * Gets or sets the last execution result.
-	 */
 	@SerialName("LastExecutionResult")
-	public val lastExecutionResult: TaskResult? = null,
+	public val lastExecutionResult: TaskResult,
 	/**
 	 * Gets or sets the triggers.
 	 */

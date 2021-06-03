@@ -30,9 +30,6 @@ public data class AccessSchedule(
 	 */
 	@SerialName("UserId")
 	public val userId: UUID,
-	/**
-	 * Gets or sets the day of week.
-	 */
 	@SerialName("DayOfWeek")
 	public val dayOfWeek: DynamicDayOfWeek,
 	/**

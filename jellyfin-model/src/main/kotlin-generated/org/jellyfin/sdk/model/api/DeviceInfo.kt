@@ -53,11 +53,8 @@ public data class DeviceInfo(
 	 */
 	@SerialName("DateLastActivity")
 	public val dateLastActivity: LocalDateTime,
-	/**
-	 * Gets or sets the capabilities.
-	 */
 	@SerialName("Capabilities")
-	public val capabilities: ClientCapabilities? = null,
+	public val capabilities: ClientCapabilities,
 	@SerialName("IconUrl")
 	public val iconUrl: String? = null
 )

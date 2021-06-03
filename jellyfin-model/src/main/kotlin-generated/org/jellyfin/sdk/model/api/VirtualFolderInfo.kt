@@ -26,13 +26,10 @@ public data class VirtualFolderInfo(
 	 */
 	@SerialName("Locations")
 	public val locations: List<String>? = null,
-	/**
-	 * Gets or sets the type of the collection.
-	 */
 	@SerialName("CollectionType")
-	public val collectionType: CollectionTypeOptions? = null,
+	public val collectionType: CollectionTypeOptions,
 	@SerialName("LibraryOptions")
-	public val libraryOptions: LibraryOptions? = null,
+	public val libraryOptions: LibraryOptions,
 	/**
 	 * Gets or sets the item identifier.
 	 */

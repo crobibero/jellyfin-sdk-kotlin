@@ -35,11 +35,8 @@ public data class IPlugin(
 	 */
 	@SerialName("Id")
 	public val id: UUID,
-	/**
-	 * Gets the plugin version.
-	 */
 	@SerialName("Version")
-	public val version: Version? = null,
+	public val version: Version,
 	/**
 	 * Gets the path to the assembly file.
 	 */

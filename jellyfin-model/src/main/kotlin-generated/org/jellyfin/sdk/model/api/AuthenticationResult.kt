@@ -11,16 +11,10 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 public data class AuthenticationResult(
-	/**
-	 * Class UserDto.
-	 */
 	@SerialName("User")
-	public val user: UserDto? = null,
-	/**
-	 * Class SessionInfo.
-	 */
+	public val user: UserDto,
 	@SerialName("SessionInfo")
-	public val sessionInfo: SessionInfo? = null,
+	public val sessionInfo: SessionInfo,
 	@SerialName("AccessToken")
 	public val accessToken: String? = null,
 	@SerialName("ServerId")

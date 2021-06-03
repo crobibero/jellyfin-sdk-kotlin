@@ -18,7 +18,7 @@ import org.jellyfin.sdk.model.serializer.UUIDSerializer
 @Serializable
 public data class SeriesInfoRemoteSearchQuery(
 	@SerialName("SearchInfo")
-	public val searchInfo: SeriesInfo? = null,
+	public val searchInfo: SeriesInfo,
 	@SerialName("ItemId")
 	public val itemId: UUID,
 	/**

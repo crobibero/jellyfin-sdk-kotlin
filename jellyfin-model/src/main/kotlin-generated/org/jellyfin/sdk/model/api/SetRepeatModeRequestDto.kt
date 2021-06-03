@@ -13,9 +13,6 @@ import kotlinx.serialization.Serializable
  */
 @Serializable
 public data class SetRepeatModeRequestDto(
-	/**
-	 * Gets or sets the repeat mode.
-	 */
 	@SerialName("Mode")
 	public val mode: GroupRepeatMode
 )

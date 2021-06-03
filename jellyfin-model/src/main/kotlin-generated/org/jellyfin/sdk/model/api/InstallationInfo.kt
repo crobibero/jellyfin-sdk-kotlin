@@ -29,11 +29,8 @@ public data class InstallationInfo(
 	 */
 	@SerialName("Name")
 	public val name: String? = null,
-	/**
-	 * Gets or sets the version.
-	 */
 	@SerialName("Version")
-	public val version: Version? = null,
+	public val version: Version,
 	/**
 	 * Gets or sets the changelog for this version.
 	 */
@@ -49,9 +46,6 @@ public data class InstallationInfo(
 	 */
 	@SerialName("Checksum")
 	public val checksum: String? = null,
-	/**
-	 * Gets or sets package information for the installation.
-	 */
 	@SerialName("PackageInfo")
-	public val packageInfo: PackageInfo? = null
+	public val packageInfo: PackageInfo
 )

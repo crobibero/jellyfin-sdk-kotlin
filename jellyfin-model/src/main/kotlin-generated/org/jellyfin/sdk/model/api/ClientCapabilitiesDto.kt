@@ -20,12 +20,12 @@ public data class ClientCapabilitiesDto(
 	 * Gets or sets the list of playable media types.
 	 */
 	@SerialName("PlayableMediaTypes")
-	public val playableMediaTypes: List<String>? = null,
+	public val playableMediaTypes: List<String>,
 	/**
 	 * Gets or sets the list of supported commands.
 	 */
 	@SerialName("SupportedCommands")
-	public val supportedCommands: List<GeneralCommandType>? = null,
+	public val supportedCommands: List<GeneralCommandType>,
 	/**
 	 * Gets or sets a value indicating whether session supports media control.
 	 */
@@ -51,11 +51,8 @@ public data class ClientCapabilitiesDto(
 	 */
 	@SerialName("SupportsSync")
 	public val supportsSync: Boolean,
-	/**
-	 * Gets or sets the device profile.
-	 */
 	@SerialName("DeviceProfile")
-	public val deviceProfile: DeviceProfile? = null,
+	public val deviceProfile: DeviceProfile,
 	/**
 	 * Gets or sets the app store url.
 	 */

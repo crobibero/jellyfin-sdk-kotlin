@@ -19,9 +19,6 @@ public data class UpdateMediaPathRequestDto(
 	 */
 	@SerialName("Name")
 	public val name: String,
-	/**
-	 * Gets or sets library folder path information.
-	 */
 	@SerialName("PathInfo")
 	public val pathInfo: MediaPathInfo
 )

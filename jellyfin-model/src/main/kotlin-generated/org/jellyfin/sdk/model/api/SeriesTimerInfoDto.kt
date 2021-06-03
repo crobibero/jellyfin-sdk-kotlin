@@ -158,11 +158,8 @@ public data class SeriesTimerInfoDto(
 	 */
 	@SerialName("Days")
 	public val days: List<DayOfWeek>? = null,
-	/**
-	 * Gets or sets the day pattern.
-	 */
 	@SerialName("DayPattern")
-	public val dayPattern: DayPattern? = null,
+	public val dayPattern: DayPattern,
 	/**
 	 * Gets or sets the image tags.
 	 */

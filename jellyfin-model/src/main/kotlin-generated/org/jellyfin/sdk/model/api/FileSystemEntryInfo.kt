@@ -18,15 +18,12 @@ public data class FileSystemEntryInfo(
 	 * Gets the name.
 	 */
 	@SerialName("Name")
-	public val name: String? = null,
+	public val name: String,
 	/**
 	 * Gets the path.
 	 */
 	@SerialName("Path")
-	public val path: String? = null,
-	/**
-	 * Gets the type.
-	 */
+	public val path: String,
 	@SerialName("Type")
 	public val type: FileSystemEntryType
 )

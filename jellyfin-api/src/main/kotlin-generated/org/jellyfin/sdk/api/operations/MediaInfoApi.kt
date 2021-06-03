@@ -91,7 +91,7 @@ public class MediaInfoApi(
 	 *
 	 * @param itemId The item id.
 	 */
-	public suspend fun getPostedPlaybackInfo(itemId: UUID, `data`: PlaybackInfoDto? = null):
+	public suspend fun getPostedPlaybackInfo(itemId: UUID, `data`: PlaybackInfoDto):
 			Response<PlaybackInfoResponse> {
 		val pathParameters = mutableMapOf<String, Any?>()
 		pathParameters["itemId"] = itemId
@@ -139,7 +139,7 @@ public class MediaInfoApi(
 		enableTranscoding: Boolean? = null,
 		allowVideoStreamCopy: Boolean? = null,
 		allowAudioStreamCopy: Boolean? = null,
-		`data`: PlaybackInfoDto? = null
+		`data`: PlaybackInfoDto
 	): Response<PlaybackInfoResponse> {
 		val pathParameters = mutableMapOf<String, Any?>()
 		pathParameters["itemId"] = itemId
@@ -190,7 +190,7 @@ public class MediaInfoApi(
 		itemId: UUID? = null,
 		enableDirectPlay: Boolean? = null,
 		enableDirectStream: Boolean? = null,
-		`data`: OpenLiveStreamDto? = null
+		`data`: OpenLiveStreamDto
 	): Response<LiveStreamResponse> {
 		val pathParameters = emptyMap<String, Any?>()
 		val queryParameters = mutableMapOf<String, Any?>()

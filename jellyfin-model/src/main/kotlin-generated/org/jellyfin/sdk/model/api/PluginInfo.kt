@@ -25,12 +25,9 @@ public data class PluginInfo(
 	 * Gets or sets the name.
 	 */
 	@SerialName("Name")
-	public val name: String? = null,
-	/**
-	 * Gets or sets the version.
-	 */
+	public val name: String,
 	@SerialName("Version")
-	public val version: Version? = null,
+	public val version: Version,
 	/**
 	 * Gets or sets the name of the configuration file.
 	 */
@@ -40,7 +37,7 @@ public data class PluginInfo(
 	 * Gets or sets the description.
 	 */
 	@SerialName("Description")
-	public val description: String? = null,
+	public val description: String,
 	/**
 	 * Gets or sets the unique id.
 	 */
@@ -56,9 +53,6 @@ public data class PluginInfo(
 	 */
 	@SerialName("HasImage")
 	public val hasImage: Boolean,
-	/**
-	 * Gets or sets a value indicating the status of the plugin.
-	 */
 	@SerialName("Status")
 	public val status: PluginStatus
 )

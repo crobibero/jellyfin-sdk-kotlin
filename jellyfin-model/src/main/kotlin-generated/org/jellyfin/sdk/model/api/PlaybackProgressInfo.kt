@@ -28,11 +28,8 @@ public data class PlaybackProgressInfo(
 	 */
 	@SerialName("CanSeek")
 	public val canSeek: Boolean,
-	/**
-	 * Gets or sets the item.
-	 */
 	@SerialName("Item")
-	public val item: BaseItemDto? = null,
+	public val item: BaseItemDto,
 	/**
 	 * Gets or sets the item identifier.
 	 */
@@ -84,9 +81,6 @@ public data class PlaybackProgressInfo(
 	public val brightness: Int? = null,
 	@SerialName("AspectRatio")
 	public val aspectRatio: String? = null,
-	/**
-	 * Gets or sets the play method.
-	 */
 	@SerialName("PlayMethod")
 	public val playMethod: PlayMethod,
 	/**
@@ -99,9 +93,6 @@ public data class PlaybackProgressInfo(
 	 */
 	@SerialName("PlaySessionId")
 	public val playSessionId: String? = null,
-	/**
-	 * Gets or sets the repeat mode.
-	 */
 	@SerialName("RepeatMode")
 	public val repeatMode: RepeatMode,
 	@SerialName("NowPlayingQueue")

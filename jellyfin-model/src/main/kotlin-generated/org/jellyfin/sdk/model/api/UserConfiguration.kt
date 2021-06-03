@@ -35,9 +35,6 @@ public data class UserConfiguration(
 	public val displayMissingEpisodes: Boolean,
 	@SerialName("GroupedFolders")
 	public val groupedFolders: List<String>? = null,
-	/**
-	 * An enum representing a subtitle playback mode.
-	 */
 	@SerialName("SubtitleMode")
 	public val subtitleMode: SubtitlePlaybackMode,
 	@SerialName("DisplayCollectionsView")

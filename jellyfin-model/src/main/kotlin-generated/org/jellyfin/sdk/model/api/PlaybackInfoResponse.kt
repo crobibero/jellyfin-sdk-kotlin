@@ -19,15 +19,12 @@ public data class PlaybackInfoResponse(
 	 * Gets or sets the media sources.
 	 */
 	@SerialName("MediaSources")
-	public val mediaSources: List<MediaSourceInfo>? = null,
+	public val mediaSources: List<MediaSourceInfo>,
 	/**
 	 * Gets or sets the play session identifier.
 	 */
 	@SerialName("PlaySessionId")
 	public val playSessionId: String? = null,
-	/**
-	 * Gets or sets the error code.
-	 */
 	@SerialName("ErrorCode")
-	public val errorCode: PlaybackErrorCode? = null
+	public val errorCode: PlaybackErrorCode
 )

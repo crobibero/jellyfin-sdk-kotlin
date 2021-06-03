@@ -11,9 +11,6 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 public data class ImageOption(
-	/**
-	 * Gets or sets the type.
-	 */
 	@SerialName("Type")
 	public val type: ImageType,
 	/**

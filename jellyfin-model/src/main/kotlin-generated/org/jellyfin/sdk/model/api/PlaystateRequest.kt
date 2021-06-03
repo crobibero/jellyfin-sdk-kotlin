@@ -12,9 +12,6 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 public data class PlaystateRequest(
-	/**
-	 * Enum PlaystateCommand.
-	 */
 	@SerialName("Command")
 	public val command: PlaystateCommand,
 	@SerialName("SeekPositionTicks")

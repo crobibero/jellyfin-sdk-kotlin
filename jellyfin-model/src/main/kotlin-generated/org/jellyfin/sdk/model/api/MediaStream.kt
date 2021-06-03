@@ -165,9 +165,6 @@ public data class MediaStream(
 	 */
 	@SerialName("Profile")
 	public val profile: String? = null,
-	/**
-	 * Gets or sets the type.
-	 */
 	@SerialName("Type")
 	public val type: MediaStreamType,
 	/**
@@ -190,11 +187,8 @@ public data class MediaStream(
 	 */
 	@SerialName("IsExternal")
 	public val isExternal: Boolean,
-	/**
-	 * Gets or sets the method.
-	 */
 	@SerialName("DeliveryMethod")
-	public val deliveryMethod: SubtitleDeliveryMethod? = null,
+	public val deliveryMethod: SubtitleDeliveryMethod,
 	/**
 	 * Gets or sets the delivery URL.
 	 */

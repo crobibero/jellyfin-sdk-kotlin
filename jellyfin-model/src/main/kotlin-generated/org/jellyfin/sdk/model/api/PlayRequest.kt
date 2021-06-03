@@ -32,9 +32,6 @@ public data class PlayRequest(
 	 */
 	@SerialName("StartPositionTicks")
 	public val startPositionTicks: Long? = null,
-	/**
-	 * Gets or sets the play command.
-	 */
 	@SerialName("PlayCommand")
 	public val playCommand: PlayCommand,
 	/**

@@ -25,7 +25,7 @@ public data class MediaSourceInfo(
 	@SerialName("EncoderPath")
 	public val encoderPath: String? = null,
 	@SerialName("EncoderProtocol")
-	public val encoderProtocol: MediaProtocol? = null,
+	public val encoderProtocol: MediaProtocol,
 	@SerialName("Type")
 	public val type: MediaSourceType,
 	@SerialName("Container")
@@ -74,11 +74,11 @@ public data class MediaSourceInfo(
 	@SerialName("SupportsProbing")
 	public val supportsProbing: Boolean,
 	@SerialName("VideoType")
-	public val videoType: VideoType? = null,
+	public val videoType: VideoType,
 	@SerialName("IsoType")
-	public val isoType: IsoType? = null,
+	public val isoType: IsoType,
 	@SerialName("Video3DFormat")
-	public val video3dFormat: Video3dFormat? = null,
+	public val video3dFormat: Video3dFormat,
 	@SerialName("MediaStreams")
 	public val mediaStreams: List<MediaStream>? = null,
 	@SerialName("MediaAttachments")
@@ -88,7 +88,7 @@ public data class MediaSourceInfo(
 	@SerialName("Bitrate")
 	public val bitrate: Int? = null,
 	@SerialName("Timestamp")
-	public val timestamp: TransportStreamTimestamp? = null,
+	public val timestamp: TransportStreamTimestamp,
 	@SerialName("RequiredHttpHeaders")
 	public val requiredHttpHeaders: Map<String, String>? = null,
 	@SerialName("TranscodingUrl")

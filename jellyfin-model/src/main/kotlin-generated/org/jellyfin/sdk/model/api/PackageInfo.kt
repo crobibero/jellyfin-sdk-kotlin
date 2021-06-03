@@ -19,38 +19,38 @@ public data class PackageInfo(
 	 * Gets or sets the name.
 	 */
 	@SerialName("name")
-	public val name: String? = null,
+	public val name: String,
 	/**
 	 * Gets or sets a long description of the plugin containing features or helpful explanations.
 	 */
 	@SerialName("description")
-	public val description: String? = null,
+	public val description: String,
 	/**
 	 * Gets or sets a short overview of what the plugin does.
 	 */
 	@SerialName("overview")
-	public val overview: String? = null,
+	public val overview: String,
 	/**
 	 * Gets or sets the owner.
 	 */
 	@SerialName("owner")
-	public val owner: String? = null,
+	public val owner: String,
 	/**
 	 * Gets or sets the category.
 	 */
 	@SerialName("category")
-	public val category: String? = null,
+	public val category: String,
 	/**
 	 * Gets or sets the guid of the assembly associated with this plugin.
 	 * This is used to identify the proper item for automatic updates.
 	 */
 	@SerialName("guid")
-	public val guid: String? = null,
+	public val guid: String,
 	/**
 	 * Gets or sets the versions.
 	 */
 	@SerialName("versions")
-	public val versions: List<VersionInfo>? = null,
+	public val versions: List<VersionInfo>,
 	/**
 	 * Gets or sets the image url for the package.
 	 */

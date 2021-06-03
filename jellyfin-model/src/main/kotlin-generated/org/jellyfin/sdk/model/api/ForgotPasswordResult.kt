@@ -16,9 +16,6 @@ import org.jellyfin.sdk.model.serializer.LocalDateTimeSerializer
 
 @Serializable
 public data class ForgotPasswordResult(
-	/**
-	 * Gets or sets the action.
-	 */
 	@SerialName("Action")
 	public val action: ForgotPasswordAction,
 	/**

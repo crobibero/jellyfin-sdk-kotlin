@@ -27,11 +27,11 @@ import org.jellyfin.sdk.model.serializer.UUIDSerializer
 @Serializable
 public data class SessionInfo(
 	@SerialName("PlayState")
-	public val playState: PlayerStateInfo? = null,
+	public val playState: PlayerStateInfo,
 	@SerialName("AdditionalUsers")
 	public val additionalUsers: List<SessionUserInfo>? = null,
 	@SerialName("Capabilities")
-	public val capabilities: ClientCapabilities? = null,
+	public val capabilities: ClientCapabilities,
 	/**
 	 * Gets or sets the remote end point.
 	 */
@@ -82,22 +82,12 @@ public data class SessionInfo(
 	 */
 	@SerialName("DeviceType")
 	public val deviceType: String? = null,
-	/**
-	 * Gets or sets the now playing item.
-	 */
 	@SerialName("NowPlayingItem")
-	public val nowPlayingItem: BaseItemDto? = null,
-	/**
-	 * Class BaseItem.
-	 */
+	public val nowPlayingItem: BaseItemDto,
 	@SerialName("FullNowPlayingItem")
-	public val fullNowPlayingItem: BaseItem? = null,
-	/**
-	 * This is strictly used as a data transfer object from the api layer.
-	 * This holds information about a BaseItem in a format that is convenient for the client.
-	 */
+	public val fullNowPlayingItem: BaseItem,
 	@SerialName("NowViewingItem")
-	public val nowViewingItem: BaseItemDto? = null,
+	public val nowViewingItem: BaseItemDto,
 	/**
 	 * Gets or sets the device id.
 	 */
@@ -109,7 +99,7 @@ public data class SessionInfo(
 	@SerialName("ApplicationVersion")
 	public val applicationVersion: String? = null,
 	@SerialName("TranscodingInfo")
-	public val transcodingInfo: TranscodingInfo? = null,
+	public val transcodingInfo: TranscodingInfo,
 	/**
 	 * Gets a value indicating whether this instance is active.
 	 */
